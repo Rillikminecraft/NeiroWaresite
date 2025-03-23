@@ -1,0 +1,135 @@
+/* Основные стили */
+body {
+  font-family: 'Minecraft', Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Заголовки */
+h1 {
+  font-size: 36px;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
+
+/* Основной текст */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #f2f2f2;
+  text-shadow: 1px 1px #000;
+}
+
+/* Кнопки */
+button {
+  background-color: #5cb85c;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px #000;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #449d44;
+}
+
+/* Контейнер */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый цвет */
+  border: 1px solid #000; /* Граница для наглядности */
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+
+
+
+
+/* Ввод текста */
+input {
+  font-family: Arial, sans-serif; /* Устанавливаем шрифт для контейнера */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #333; /* Полупрозрачный белый цвет */
+  color: #000;
+}
+
+/* Описание игры */
+.description {
+
+  position: absolute; /* Позиционирование относительно окна браузера */
+  top: 10px; /* Перемещение вверх */
+  right: 10px; /* Перемещение вправо */
+  width: 500px; /* Ширина контейнера */
+  font-family: Arial, sans-serif; /* Устанавливаем шрифт для контейнера */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон */
+  border: 1px solid #000; /* Полупрозрачный белый цвет */
+
+}
+button {
+  background-color: #4CAF50; /* Зеленый цвет кнопки */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px #000;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049; /* Темно-зеленый цвет при наведении */
+}
+
+/* Фон */
+body {
+  background-image: url('img/123.png'); /* Используйте изображение блоков Minecraft */
+  background-repeat: repeat;
+  background-position: center center; /* Центрируем изображение */
+  background-size: cover; /* Масштабируем изображение, чтобы оно покрывало всю область */
+  min-height: 100vh; /* Устанавливаем минимальную высоту тела документа на 100% высоты экрана */
+  display: flex; /* Используем flexbox для выравнивания содержимого */
+  flex-direction: column; /* Устанавливаем направление по вертикали */
+  justify-content: flex-start; /* Выравниваем содержимое по верхнему краю */
+  align-items: center; /* Центрируем содержимое по горизонтали */
+  margin: 0; /* Убираем внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  background-color: #f4f4f4; /* Устанавливаем фоновый цвет */
+}
